@@ -1,17 +1,26 @@
 # Python bytecode:
-*.py[co]
+*.py[cod]
 
 # Packaging files:
 *.egg*
-
-# Sphinx docs:
+dist
+build
+parts
+bin
+var
+sdist
+develop-eggs
+.installed.cfg
+lib
+lib64
 build
 
-# SQLite3 database files:
+# Logs and databases
 *.db
-
-# Logs:
 *.log
+*.sql
+*.sqlite
+pip-log.txt
 
 # Eclipse
 .project
@@ -30,11 +39,23 @@ tramp
 *.swp
 *.swo
 
-# Mac
+# OS generated files
 .DS_Store
+.DS_Store?
 ._*
-
-# Windows
+.Spotlight-V100
+.Trashes
+ehthumbs.db
 Thumbs.db
 Desktop.ini
 
+# Unit test / coverage reports
+.coverage
+.tox
+nosetests.xml
+
+# Translations
+*.mo
+
+# C extensions
+*.so

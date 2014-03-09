@@ -24,8 +24,7 @@
     <!-- This file store project specific CSS -->
     <link href="{% templatetag openblock %} static 'css/{{ project_name }}.css' {% templatetag closeblock %}" rel="stylesheet">
 
-    <!-- Use this to quickly test CSS changes in a template,
-        then move to {{ project_name }}.css -->
+    <!-- Use this to quickly test CSS changes in a template, then move to {{ project_name }}.css -->
     {% templatetag openblock %} block extra_css {% templatetag closeblock %}{% templatetag openblock %} endblock extra_css {% templatetag closeblock %}
   </head>
 

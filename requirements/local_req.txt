@@ -1,5 +1,7 @@
 # Local development dependencies go here
--r base.txt
+-r base_req.txt
+
+
 coverage
 django-debug-toolbar
 Sphinx
